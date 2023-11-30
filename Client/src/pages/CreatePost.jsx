@@ -58,7 +58,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          "http://https://dall-e-i8pi.onrender.com/api/v1/post",
+          "https://dall-e-i8pi.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {

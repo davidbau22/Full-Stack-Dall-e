@@ -22,7 +22,7 @@ const Home = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "http://https://dall-e-i8pi.onrender.com/api/v1/post",
+          "https://dall-e-i8pi.onrender.com/api/v1/post",
           {
             method: "GET",
             headers: {
